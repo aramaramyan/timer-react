@@ -1,0 +1,30 @@
+.set-time {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#inputLabel {
+    font-size: 18px;
+}
+
+#setTime {
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#setTime:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#setTime::-webkit-outer-spin-button,
+#setTime::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}

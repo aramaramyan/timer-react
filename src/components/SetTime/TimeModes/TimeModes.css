@@ -1,0 +1,8 @@
+.mode {
+    width: 50px;
+    color: white;
+}
+
+.mode:hover {
+    cursor: pointer;
+}
